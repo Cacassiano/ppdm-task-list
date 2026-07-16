@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="js">
 import { ref, computed } from "vue";
 const props = defineProps({
   title: String,

@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="js">
 import { ref } from "vue";
 import TaskList from "./components/TaskList.vue";
 const taskList = ref(["Tarefas importantes"]);
