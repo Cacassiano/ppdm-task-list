@@ -3,7 +3,7 @@ import { ref } from "vue";
 import TaskList from "./components/TaskList.vue";
 const taskList = ref(["Tarefas importantes"]);
 const title = ref("");
-const handleSubmit = (e: any) => {
+const handleSubmit = (e) => {
   e.preventDefault();
   taskList.value.push(title.value);
   title.value = "";
